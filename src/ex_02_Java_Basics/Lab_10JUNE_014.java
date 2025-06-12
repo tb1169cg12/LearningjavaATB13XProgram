@@ -11,8 +11,9 @@ public class Lab_10JUNE_014 {
         //a=30;   this will not be allowed will show system error
         System.out.println(a);
 
-        /*float PI=3.414;
-        System.out.printF("PI");
-        */
+        float PI=3.414F;
+        PI=4.1F;
+        System.out.printf("%f",PI);
+
     }
 }
