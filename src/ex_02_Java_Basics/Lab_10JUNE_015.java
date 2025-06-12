@@ -10,6 +10,6 @@ public class Lab_10JUNE_015 {
         }
         int c=30;
         System.out.println(c);
-        //program to print using blocks
+        //program to print using blocks (local variable)
     }
 }
