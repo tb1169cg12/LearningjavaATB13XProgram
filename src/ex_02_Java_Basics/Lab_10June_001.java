@@ -1,6 +1,6 @@
 package ex_02_Java_Basics;
 
-public class Lab_008 {
+public class Lab_10June_001 {
     public static void main(String[] args) {
         //data_type variable_name= variable_value
         byte b= 10;
