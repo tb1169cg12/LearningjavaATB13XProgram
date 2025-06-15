@@ -6,7 +6,9 @@ public class Lab_003_narrow_casting {
         float gst=18.45f;
         //int total=course +(int)gst; total will show 118 data loss
         //System.out.println(total);
-        float total=course+ (float)gst;
+        float totall=course+gst;//implicit
+        float total=course+ (float)gst;//explicit
+        System.out.println(totall);
         System.out.println(total);
 
     }
