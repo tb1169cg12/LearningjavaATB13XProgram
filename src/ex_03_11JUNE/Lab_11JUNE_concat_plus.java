@@ -1,4 +1,4 @@
-package ex_03_literrals;
+package ex_03_11JUNE;
 
 public class Lab_11JUNE_concat_plus {
     public static void main(String[] args) {
