@@ -7,7 +7,7 @@ public class Lab_001_loop {
         // Initialization -> Condition -> Updation (Incre/decre)
         //
         for(int i=0;i<10;i++){
-            System.out.println(i);
+            System.out.println(i);//preint from 0 to 9 ,10 times
         }
 
     }
