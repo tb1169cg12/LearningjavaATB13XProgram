@@ -2,7 +2,7 @@ package ex_08_18JUNE;
 
 import java.util.Scanner;
 
-public class Lab_004_exercise {
+public class Lab_004_check_vovel_consonant {
     public static void main(String[] args) {
         Scanner scanner= new Scanner(System.in);
         System.out.println("enter a character");
