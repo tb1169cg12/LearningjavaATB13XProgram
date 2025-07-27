@@ -5,5 +5,6 @@ public class string {
         String name ="sonal";
         System.out.println(name.length());
         System.out.println(name.charAt(3));
+        System.out.println(name.concat( "patel"));
     }
 }
