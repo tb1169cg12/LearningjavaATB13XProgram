@@ -2,7 +2,7 @@ package ex_10_20JUNE;
 
 import java.util.Scanner;
 
-public class interview2 {
+public class left_hand_triangle {
     public static void main(String[] args) {
         System.out.println("enter size of matrix");
         Scanner scanner = new Scanner(System.in);
