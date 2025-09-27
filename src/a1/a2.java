@@ -1,31 +1,29 @@
 package a1;
 
+import java.util.Scanner;
+
 public class a2 {
     public static void main(String[] args) {
-        wp_wrt_greet();//calling function 1 wp_wrt
-        String msg= greet_wrt_wp();//calling function 2 wp_wrt
-        System.out.println(msg);
-        greeting_with_details("pramod",15,10000);//callling function 3
-        int a=sum_of_two_numbers(10,15);//calling function 4
-        System.out.println(a);
-    }
+// Create a Function of Sub, Sum, Mul and Div
+// with parameter, a, b (take the parameter from the User)
+// Logic Building
+// Step 1 →> Inputs and Outputs
+// a, b - int -> Scanner
+// int →> variable result →>
+// Step 2 - Rough logic -> Create functions
+// function -> type 4th - with return and with arguments/ parameters
+// Step 3 - Write the code and Find and Fix -> Edge Cases
 
-    //1. without parameter without return type
-    static void wp_wrt_greet(){
-        System.out.println("hi,how are u");
+        Scanner scanner=new Scanner(System.in);
+        System.out.println("enter number 1");
+        int a= scanner.nextInt();
+        System.out.println("enter number 2");
+        int b= scanner.nextInt();
+        int result=sum(a,b);
+        System.out.println("sum_is" +result);
     }
-    //2. without parameter with return type
-    static String greet_wrt_wp(){
-        System.out.println("hi");
-        return "how are u ";
-    }
-    //3. with parameter ,without return type
-    static void greeting_with_details( String name,int age ,double salary ){
-        System.out.println("your name is " + name + "\n  your age is " + age + "\n your salary is "+ salary );
-
-    }
-    //4. with parameter with return type
-    static int sum_of_two_numbers(int a,int b){
+    static int sum(int a, int b){
         return a+b;
     }
+
 }
