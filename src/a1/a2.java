@@ -6,7 +6,8 @@ public class a2 {
         String msg= greet_wrt_wp();//calling function 2 wp_wrt
         System.out.println(msg);
         greeting_with_details("pramod",15,10000);//callling function 3
-
+        int a=sum_of_two_numbers(10,15);//calling function 4
+        System.out.println(a);
     }
 
     //1. without parameter without return type
@@ -22,5 +23,9 @@ public class a2 {
     static void greeting_with_details( String name,int age ,double salary ){
         System.out.println("your name is " + name + "\n  your age is " + age + "\n your salary is "+ salary );
 
+    }
+    //4. with parameter with return type
+    static int sum_of_two_numbers(int a,int b){
+        return a+b;
     }
 }
