@@ -19,11 +19,14 @@ public class a2 {
         int a= scanner.nextInt();
         System.out.println("enter number 2");
         int b= scanner.nextInt();
+
         int result=sum(a,b);
         System.out.println("sum_is" +result);
     }
-    static int sum(int a, int b){
+        static int sum(int a, int b){
         return a+b;
+
+
     }
 
 }
