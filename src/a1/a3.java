@@ -14,6 +14,8 @@ public class a3 {
         System.out.println("sum is "+ssum);
         int multiply=multipli(a,b);
         System.out.println("multiply is "+multiply);
+        int divs=division(a,b);
+        System.out.println("div is "+divs);
     }
 
     public static int sum(int a,int b ) {
@@ -21,6 +23,10 @@ public class a3 {
 
     }
     public static int multipli(int a,int b){
-    return a*b;}
+    return a*b;
+    }
+    public static int division (int a,int b){
+        return a/b;
+    }
 
 }
