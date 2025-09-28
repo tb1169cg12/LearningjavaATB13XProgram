@@ -7,7 +7,14 @@ public class a3 {
 
         Scanner scanner= new Scanner(System.in);
         System.out.println("enter a");
-        int a= scanner.nextInt();
+        int a=0;
+        if(scanner.hasNext()){
+            a= scanner.nextInt();
+        }else{
+            System.out.println(" enter int only");
+            return;
+        }
+
         System.out.println("enter b");
         int b= scanner.nextInt();
         int ssum=sum(a,b);
