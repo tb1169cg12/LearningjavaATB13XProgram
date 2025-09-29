@@ -14,5 +14,6 @@ public class immutable {
         //total 3 string only in string pool a,s1,s2,s3
         System.out.println(a==b);//code to find if bot stings are in same area
         System.out.println(a==s1);//will return true if in same and false if in different pool
+        System.out.println(a.equals(b));//checks content in string is same
     }
 }
