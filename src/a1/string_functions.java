@@ -17,6 +17,17 @@ public class string_functions {
         System.out.println(split_c[0]);
         System.out.println(split_c[1]);
         System.out.println(split_c[2]);
-
+        System.out.println(s.toUpperCase());//changes to caps
+        System.out.println(s.toLowerCase());//changes to lowers caps
+        System.out.println(s.startsWith("a"));//will check if string starts with given char
+        System.out.println(s.endsWith("d"));
+        String another_palindrom="Niagara. 0 roar again!";
+        System.out.println(another_palindrom.length());
+        String extra=another_palindrom.substring(11,15);//will fetch word starting from 11 but end on 14th
+        System.out.println(extra);
+        String x="rahul";//concatination
+        String y="bajaj";
+        String concat=x+y;
+        System.out.println(concat);
     }
 }
