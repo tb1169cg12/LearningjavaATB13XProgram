@@ -20,7 +20,8 @@ public class Array_3d {
         array_new[2][2]=3;
         for(int i=0;i<array_new.length;i++){
             for(int j=0;j<array_new[i].length;j++){
-                System.out.print(array_new[i][j]);
+                System.out.print(array_new[i][j] + "  |  ");
+
         }
             System.out.println();//for better output , space after each row
 
