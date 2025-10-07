@@ -4,7 +4,7 @@ public class method_overloading {
     public static void main(String[] args) {
 mathoperations m1=new mathoperations();
 int r1= m1.add(3,4);
-int r2= m1.add(1,2,3,);
+int r2= m1.add(1,2,3);
 double r3= m1.add(1.1,2.2,3.3,4.4);
 String r4=m1.add("rahul","bajaj");
 //jvm will get erros at complie time only ie before runing program
